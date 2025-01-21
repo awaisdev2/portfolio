@@ -1,0 +1,152 @@
+{
+    "locales": {
+        "en": {
+            "title": "Education",
+            "title_long_prefix": "This is my",
+            "title_long": "**Educational** Background"
+        },
+
+        "es": {
+            "title": "Educación",
+            "title_long_prefix": "Esta es mi",
+            "title_long": "**Formación** Educativa"
+        },
+
+        "fr": {
+            "title": "Éducation",
+            "title_long_prefix": "C'est mon",
+            "title_long": "**Contexte** Éducatif"
+        },
+
+        "ko": {
+            "title": "교육",
+            "title_long_prefix": "이것은 내",
+            "title_long": "**교육적** 배경"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "academic",
+            "component": "ArticleTimeline",
+            "config": {},
+            "locales": {},
+
+            "items": [
+                {
+                    "icon": {
+                        "img": "",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "03/01/2020",
+                        "end": "06/01/2022"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Matric",
+                            "info": "Oxford School",
+                            "text": "I completed my Matriculation in 2022 from the Lahore Board, with a focus on Computer Science. This foundation allowed me to develop a strong understanding of fundamental computing concepts and ignited my passion for technology and problem-solving.",
+                            "tags": null
+                        },
+                        "es": {
+                            "title": "Matric",
+                            "info": "Oxford School",
+                            "text": "Completé mi diploma de Matriculación en 2022 en la Junta de Lahore, con una especialización en informática. Esta base me permitió desarrollar una sólida comprensión de los conceptos fundamentales de la informática y despertó mi pasión por la tecnología y la resolución de problemas.",
+                            "tags": null
+                        },
+                        "fr": {
+                            "title": "Matric",
+                            "info": "Oxford School",
+                            "text": "J'ai terminé mon diplôme de Matriculation en 2022 auprès du Lahore Board, avec une spécialisation en informatique. Cette base m'a permis de développer une solide compréhension des concepts fondamentaux de l'informatique et a éveillé ma passion pour la technologie et la résolution de problèmes.",
+                            "tags": null
+                        },
+                        "ko": {
+                            "title": "Matric",
+                            "info": "Oxford School",
+                            "text": "저는 2022년에 Lahore Board에서 컴퓨터 과학을 전공하며 매트릭 졸업을 완료했습니다. 이 기초는 컴퓨터 과학의 기본 개념에 대한 확고한 이해를 발전시키는 데 도움을 주었고, 기술과 문제 해결에 대한 제 열정을 불러일으켰습니다.",
+                            "tags": null
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": "",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "08/01/2022",
+                        "end": "06/01/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Intermediate",
+                            "info": "Concordia College",
+                            "text": "I completed my Intermediate education at Concordia College, where I focused on studying the core concepts of Computer Science. This experience deepened my understanding of computing principles and further fueled my passion for technology and innovative problem-solving.",
+                            "tags": null
+                        },
+                        "es": {
+                            "title": "Intermediate",
+                            "info": "Concordia College",
+                            "text": "Completé mi educación intermedia en Concordia College, donde me concentré en estudiar los conceptos básicos de las Ciencias de la Computación. Esta experiencia profundizó mi comprensión de los principios informáticos y alimentó aún más mi pasión por la tecnología y la resolución innovadora de problemas.",
+                            "tags": null
+                        },
+                        "fr": {
+                            "title": "Intermediate",
+                            "info": "Concordia College",
+                            "text": "J'ai complété mes études intermédiaires au Collège Concordia, où je me suis concentré sur l'étude des concepts de base de l'informatique. Cette expérience a approfondi ma compréhension des principes informatiques et a alimenté ma passion pour la technologie et la résolution de problèmes innovante.",
+                            "tags": null
+                        },
+                        "ko": {
+                            "title": "Intermediate",
+                            "info": "Concordia College",
+                            "text": "저는 Concordia College에서 중급 교육을 마쳤으며, 그곳에서 컴퓨터 과학의 핵심 개념을 공부하는 데 중점을 두었습니다. 이 경험을 통해 컴퓨팅 원리에 대한 이해가 깊어졌고 기술과 혁신적인 문제 해결에 대한 열정이 더욱 커졌습니다.",
+                            "tags": null
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": "",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "08/01/2024",
+                        "end": "06/01/2028"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Graduation",
+                            "info": "Virtual University",
+                            "text": "I am currently pursuing a Bachelor’s degree in Computer Science from Virtual University. This program is helping me build a strong foundation in advanced computing concepts, programming, and problem-solving, equipping me with the skills needed to excel in the tech industry.",
+                            "tags": null
+                        },
+                        "es": {
+                            "title": "Intermediate",
+                            "info": "Virtual University",
+                            "text": "Actualmente estoy cursando la Licenciatura en Ciencias de la Computación en la Universidad Virtual. Este programa me está ayudando a construir una base sólida en conceptos informáticos avanzados, programación y resolución de problemas, proporcionándome las habilidades necesarias para sobresalir en la industria tecnológica.",
+                            "tags": null
+                        },
+                        "fr": {
+                            "title": "Intermediate",
+                            "info": "Virtual University",
+                            "text": "Je poursuis actuellement un baccalauréat en informatique à l’Université Virtuelle. Ce programme m'aide à construire une base solide dans les concepts informatiques avancés, la programmation et la résolution de problèmes, me dotant ainsi des compétences nécessaires pour exceller dans l'industrie technologique.",
+                            "tags": null
+                        },
+                        "ko": {
+                            "title": "Intermediate",
+                            "info": "Virtual University",
+                            "text": "저는 현재 Virtual University에서 컴퓨터 과학 학사 학위를 취득하고 있습니다. 이 프로그램은 제가 고급 컴퓨팅 개념, 프로그래밍 및 문제 해결에 대한 강력한 기반을 구축하고 기술 산업에서 탁월한 능력을 발휘하는 데 필요한 기술을 갖추는 데 도움이 됩니다.",
+                            "tags": null
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

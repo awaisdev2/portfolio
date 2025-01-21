@@ -1,0 +1,236 @@
+{
+    "locales": {
+        "en": {
+            "title": "Welcome!",
+            "title_menu": "About me",
+            "title_long_prefix": "Hello...",
+            "title_long": "I'm **Muhammad Awais**"
+        },
+
+        "es": {
+            "title": "¡Saludos!",
+            "title_menu": "Sobre mí",
+            "title_long_prefix": "Hola...",
+            "title_long": "Soy **Muhammad Awais**"
+        },
+
+        "fr": {
+            "title": "Salut !",
+            "title_menu": "À propos",
+            "title_long_prefix": "Salut...",
+            "title_long": "Je suis **Muhammad Awais**"
+        },
+
+        "ko": {
+            "title": "환영합니다!",
+            "title_menu": "소개",
+            "title_long_prefix": "안녕하세요...",
+            "title_long": "저는 **Muhammad Awais** 입니다!"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "contact_list",
+            "component": "ArticleGrid",
+            "config": {
+                "ignorePaddingTop": true,
+                "format": "inline"
+            },
+            "locales": {
+                "en": {},
+                "es": {},
+                "fr": {},
+                "ko": {}
+            },
+
+            "items": [
+                {
+                    "value": "Lahore - PK",
+                    "links": [
+                        {"href": null}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-city",
+                        "faColors": {"bg": null, "fill": null}
+                    }
+                },
+                {
+                    "value": "awaisdev2@gmail.com",
+                    "links": [
+                        {"href": "mailto:awaisdev2@gmail.com"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-envelope",
+                        "faColors": {"bg": null, "fill": null}
+                    }
+                },
+                {
+                    "value": "@awaisdev2",
+                    "links": [
+                        {"href": "https://github.com/awaisdev2"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-github",
+                        "faColors": {"bg": null, "fill": null}
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": "short_description",
+            "component": "ArticleInfoBlock",
+            "config": {},
+            "locales": {
+                "en": {"title": "**A little bit** about me..."},
+                "es": {"title": "**Un poco** sobre mí..."},
+                "fr": {"title": "**Un peu** à propos de moi..."},
+                "ko": {"title": "저에 **대해 조금**..."}
+            },
+
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/svg/logo.svg",
+                        "fa": null,
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"text": "<p>I’m a Full-Stack Developer specializing in modern web technologies, with extensive experience in building scalable applications using React, Next.js, Node.js, and MongoDB. My expertise in crafting clean, efficient code is complemented by a strong focus on testing, leveraging tools like Mocha and Chai to ensure robust and reliable solutions. My background spans developing real-time systems, optimizing APIs, and delivering user-centric designs. This versatility enables me to adapt seamlessly to diverse project requirements.</p>"},
+                        "es": {"text": "<p>Soy un desarrollador Full-Stack especializado en tecnologías web modernas, con una amplia experiencia en la creación de aplicaciones escalables utilizando React, Next.js, Node.js y MongoDB. Mi experiencia en la escritura de código limpio y eficiente se complementa con un fuerte enfoque en las pruebas, utilizando herramientas como Mocha y Chai para garantizar soluciones robustas y confiables. Mi trayectoria incluye el desarrollo de sistemas en tiempo real, la optimización de API y el diseño centrado en el usuario. Esta versatilidad me permite adaptarme perfectamente a diversas necesidades de proyectos.</p>"},
+                        "fr": {"text": "<p>Je suis un développeur Full-Stack spécialisé dans les technologies web modernes, avec une vaste expérience dans la création d'applications évolutives utilisant React, Next.js, Node.js et MongoDB. Mon expertise dans l'élaboration d'un code propre et efficace s'accompagne d'un fort accent sur les tests, en utilisant des outils comme Mocha et Chai pour garantir des solutions robustes et fiables. Mon expérience englobe le développement de systèmes en temps réel, l'optimisation des API et la création de conceptions centrées sur l'utilisateur. Cette polyvalence me permet de m'adapter parfaitement à des exigences de projet variées.</p>"},
+                        "ko": {"text": "<p>저는 React, Next.js, Node.js, MongoDB를 사용하여 확장 가능한 애플리케이션을 구축하는 데 풍부한 경험을 가진 현대 웹 기술 전문 풀스택 개발자입니다. 깨끗하고 효율적인 코드를 작성하는 데 능숙하며, Mocha와 Chai와 같은 도구를 사용하여 견고하고 신뢰할 수 있는 솔루션을 보장하는 데 중점을 둡니다. 실시간 시스템 개발, API 최적화 및 사용자 중심 설계를 포함한 다양한 경험을 보유하고 있으며, 이러한 다재다능함은 다양한 프로젝트 요구 사항에 완벽히 적응할 수 있게 합니다.</p>"}
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": "interests",
+            "component": "ArticleGrid",
+            "config": {
+                "format": "grid"
+            },
+            "locales": {
+                "en": {"title": "Personal **interests**"},
+                "es": { "title": "Intereses **personales**" },
+                "fr": { "title": "Intérêts **personnels** " },
+                "ko": { "title": "개인 **관심사**" }
+            },
+
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-guitar",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Playing guitar",
+                            "info": "Exploring different genres and improving my skills."
+                        },
+                        "es": {
+                            "title": "Tocar la guitarra",
+                            "info": "Explorando diferentes géneros y mejorando mis habilidades."
+                        },
+                        "fr": {
+                            "title": "Jouer de la guitare",
+                            "info": "Explorer différents genres et améliorer mes compétences."
+                        },
+                        "ko": {
+                            "title": "기타 연주",
+                            "info": "다양한 장르를 탐험하고 기술을 향상시키기."
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-video",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "AI video editing",
+                            "info": "Learning to use AI tools to enhance my videos."
+                        },
+                        "es": {
+                            "title": "Edición de video con IA",
+                            "info": "Aprendiendo a usar herramientas de IA para mejorar mis videos."
+                        },
+                        "fr": {
+                            "title": "Montage vidéo avec IA",
+                            "info": "Apprendre à utiliser des outils d'IA pour améliorer mes vidéos."
+                        },
+                        "ko": {
+                            "title": "AI 영상 편집",
+                            "info": "AI 도구를 사용하여 내 영상을 향상시키는 방법 배우기."
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-pencil-alt",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "UX design",
+                            "info": "Studying user experience principles."
+                        },
+                        "es": {
+                            "title": "Diseño UX",
+                            "info": "Estudiando los principios de la experiencia del usuario."
+                        },
+                        "fr": {
+                            "title": "Conception UX",
+                            "info": "Étudier les principes de l'expérience utilisateur."
+                        },
+                        "ko": {
+                            "title": "UX 디자인",
+                            "info": "사용자 경험 원칙을 공부하기."
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-camera-retro",
+                        "faColors": null
+                    },
+                    "value": null,
+                    "locales": {
+                        "en": {
+                            "title": "Photo editing",
+                            "info": "Enhancing photos through creative editing techniques."
+                        },
+                        "es": {
+                            "title": "Edición de fotos",
+                            "info": "Mejorando fotos a través de técnicas creativas de edición."
+                        },
+                        "fr": {
+                            "title": "Retouche photo",
+                            "info": "Améliorer des photos avec des techniques de montage créatives."
+                        },
+                        "ko": {
+                            "title": "사진 편집",
+                            "info": "창의적인 편집 기술을 통해 사진을 향상시키기."
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
