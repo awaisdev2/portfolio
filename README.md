@@ -1,9 +1,7 @@
 
-# [<img src="readme-assets/logo.png"> React Portfolio](https://ryanbalieiro.github.io/react-portfolio-template/) by Awais Dev
+# [React Portfolio](https://v0-my-portfolio-18ypqupqxbb-git-master-awaisdev2s-projects.vercel.app/) by Awais Dev
 
-A sleek, futuristic portfolio template for developers – built with **React** and **Bootstrap 5**.
-
-![alt tag1](readme-assets/promo.png)
+A sleek, futuristic portfolio – built with **React** and **Bootstrap 5**.
 
 Key features:
 - Lightweight and fully responsive.
@@ -14,6 +12,6 @@ Key features:
 - Uses **Vite** for packaging.
 - Emails with **EmailJS** - no backend needed!
 
-## [Live Preview](https://ryanbalieiro.github.io/react-portfolio-template/)
+## [Live Preview](https://v0-my-portfolio-18ypqupqxbb-git-master-awaisdev2s-projects.vercel.app/)
 
-Check out the live version of the template deployed **[here on GitHub Pages](https://ryanbalieiro.github.io/react-portfolio-template/)**.
+Check out the live version of the template deployed **[here on GitHub Pages](https://v0-my-portfolio-18ypqupqxbb-git-master-awaisdev2s-projects.vercel.app/)**.

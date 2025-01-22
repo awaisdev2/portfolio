@@ -34,15 +34,6 @@
 
             "categories": [
                 {
-                    "id": "apps",
-                    "locales": {
-                        "en": {"singular": "App", "plural": "Apps"},
-                        "es": {"singular": "App", "plural": "Apps"},
-                        "fr": {"singular": "App", "plural": "Apps"},
-                        "ko": {"singular": "앱", "plural": "앱들"}
-                    }
-                },
-                {
                     "id": "websites",
                     "locales": {
                         "en": {"singular": "Website", "plural": "Web"},
@@ -64,151 +55,6 @@
 
             "items": [
                 {
-                    "categoryId": "utilities",
-                    "icon": {
-                        "img": "images/pictures/project-logo-3.png",
-                        "fa": "",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-
-                    "links": [
-                        {"faIcon": "fa-brands fa-github", "href": "https://github.com"},
-                        {"faIcon": "fa-brands fa-npm", "href": "https://npm.com"}
-                    ],
-
-                    "media": {
-                        "youtubeVideo": "https://www.youtube.com/watch?v=32XsfeIX_rM",
-                        "screenshots": {
-                            "aspectRatio": null,
-                            "images": []
-                        }
-                    },
-
-                    "locales": {
-                        "en": {
-                            "title": "BrainPulse",
-                            "text": "A <b>RESTful API</b> backend built with <b>Node.js</b>, designed for high-performance data processing and real-time event handling.",
-                            "tags": ["API", "REST", "Backend"]
-                        },
-                        "es": {
-                            "title": "BrainPulse",
-                            "text": "Una <b>API RESTful</b> construida con <b>Node.js</b>, diseñada para el procesamiento de datos de alto rendimiento y la gestión de eventos en tiempo real.",
-                            "tags": ["API", "REST", "Backend"]
-                        },
-                        "fr": {
-                            "title": "BrainPulse",
-                            "text": "Un backend <b>API RESTful</b> construit avec <b>Node.js</b>, conçu pour le traitement de données haute performance et la gestion d'événements en temps réel.",
-                            "tags": ["API", "REST", "Backend"]
-                        },
-                        "ko": {
-                            "title": "BrainPulse",
-                            "text": "<b>Node.js</b>로 구축된 <b>RESTful API</b> 백엔드로, 고성능 데이터 처리 및 실시간 이벤트 처리용으로 설계되었습니다.",
-                            "tags": ["API", "REST", "Backend"]
-                        }
-                    }
-                },
-
-                {
-                    "categoryId": "apps",
-                    "icon": {
-                        "img": "images/pictures/project-logo-7.png",
-                        "fa": "",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-
-                    "links": [
-                        {"faIcon": "fa-brands fa-apple", "href": "https://apple.com"},
-                        {"faIcon": "fa-brands fa-google-play", "href": "https://google.com"}
-                    ],
-
-                    "media": {
-                        "youtubeVideo": "https://www.youtube.com/watch?v=TfgBHC5gvTI",
-                        "screenshots": {
-                            "aspectRatio": "9:16",
-                            "images": [
-                                "images/pictures/project-screenshot-1.webp",
-                                "images/pictures/project-screenshot-2.webp",
-                                "images/pictures/project-screenshot-3.webp",
-                                "images/pictures/project-screenshot-4.webp",
-                                "images/pictures/project-screenshot-5.webp"
-                            ]
-                        }
-                    },
-
-                    "locales": {
-                        "en": {
-                            "title": "MailM8",
-                            "text": "A cross-platform email client built with <b>Flutter</b>, providing efficient communication with an intuitive UI for <b>managing emails</b>.",
-                            "tags": ["Flutter", "E-mail", "Communication"]
-                        },
-                        "es": {
-                            "title": "MailM8",
-                            "text": "Un cliente de correo electrónico multiplataforma construido con <b>Flutter</b>, que ofrece comunicación eficiente y una interfaz intuitiva para la <b>gestión de correos electrónicos</b>.",
-                            "tags": ["Flutter", "Correo", "Comunicación"]
-                        },
-                        "fr": {
-                            "title": "MailM8",
-                            "text": "Un client de messagerie multiplateforme construit avec <b>Flutter</b>, offrant une communication efficace et une interface intuitive pour <b>gérer les e-mails</b>.",
-                            "tags": ["Flutter", "E-mail", "Communication"]
-                        },
-                        "ko": {
-                            "title": "MailM8",
-                            "text": "<b>Flutter</b>로 구축된 크로스플랫폼 이메일 클라이언트로, 이메일 <b>관리</b>를 위한 직관적인 UI를 통해 효율적인 소통을 제공합니다.",
-                            "tags": ["Flutter", "이메일", "소통"]
-                        }
-                    }
-                },
-
-                {
-                    "categoryId": "apps",
-                    "icon": {
-                        "img": "images/pictures/project-logo-6.png",
-                        "fa": "",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-
-                    "links": [
-                        {"faIcon": "fa-brands fa-apple", "href": "https://apple.com"},
-                        {"faIcon": "fa-brands fa-google-play", "href": "https://google.com"}
-                    ],
-
-                    "media": {
-                        "youtubeVideo": null,
-                        "screenshots": {
-                            "aspectRatio": "16:9",
-                            "images": [
-                                "images/pictures/project-screenshot-6.png",
-                                "images/pictures/project-screenshot-7.png",
-                                "images/pictures/project-screenshot-8.png"
-                            ]
-                        }
-                    },
-
-                    "locales": {
-                        "en": {
-                            "title": "Stackers",
-                            "text": "A fully-featured productivity app developed with <b>React Native</b>, enabling users to organize tasks, notes, and projects across multiple devices. It offers <b>cloud sync</b>, intuitive UI, and collaboration features.",
-                            "tags": ["React", "Organization", "Notes"]
-                        },
-                        "es": {
-                            "title": "Stackers",
-                            "text": "Una app de productividad con todas las funciones, desarrollada con <b>React Native</b>, que permite a los usuarios organizar tareas, notas y proyectos en varios dispositivos. Ofrece <b>sincronización en la nube</b>, interfaz intuitiva y características de colaboración.",
-                            "tags": ["React", "Organización", "Notas"]
-                        },
-                        "fr": {
-                            "title": "Stackers",
-                            "text": "Une application de productivité complète développée avec <b>React Native</b>, permettant aux utilisateurs d'organiser tâches, notes et projets sur plusieurs appareils. Elle offre <b>synchronisation cloud</b>, interface intuitive et fonctionnalités de collaboration.",
-                            "tags": ["React", "Organisation", "Notes"]
-                        },
-                        "ko": {
-                            "title": "Stackers",
-                            "text": "<b>React Native</b>로 개발된 기능이 풍부한 생산성 앱으로, 사용자가 여러 기기에서 작업, 메모, 프로젝트를 <b>클라우드 동기화</b>와 직관적인 UI로 관리할 수 있습니다.",
-                            "tags": ["React", "조직", "메모"]
-                        }
-                    }
-                },
-
-                {
                     "categoryId": "websites",
                     "icon": {
                         "img": "images/pictures/project-logo-1.png",
@@ -217,52 +63,7 @@
                     },
 
                     "links": [
-                        {"faIcon": "fa-solid fa-link", "href": "https://cash.com"}
-                    ],
-
-                    "media": {
-                        "youtubeVideo": "https://www.youtube.com/watch?v=MQe_MoJ7Iww",
-                        "screenshots": {
-                            "aspectRatio": null,
-                            "images": []
-                        }
-                    },
-
-                    "locales": {
-                        "en": {
-                            "title": "SmartCash",
-                            "text": "A finance website built using <b>Next.js</b>, allowing users to <b>track budgets</b> and manage their money with interactive charts and insights.",
-                            "tags": ["Next.js", "Finance", "Money"]
-                        },
-                        "es": {
-                            "title": "SmartCash",
-                            "text": "Un sitio web financiero construido con <b>Next.js</b>, que permite a los usuarios <b>seguir presupuestos</b> y gestionar su dinero con gráficos interactivos e ideas.",
-                            "tags": ["Next.js", "Finanzas", "Dinero"]
-                        },
-                        "fr": {
-                            "title": "SmartCash",
-                            "text": "Un site web financier construit avec <b>Next.js</b>, permettant aux utilisateurs de <b>suivre les budgets</b> et de gérer leur argent avec des graphiques interactifs et des analyses.",
-                            "tags": ["Next.js", "Finance", "Argent"]
-                        },
-                        "ko": {
-                            "title": "SmartCash",
-                            "text": "<b>Next.js</b>로 구축된 금융 웹사이트로, 사용자가 <b>예산을 추적</b>하고 상호작용하는 차트와 통찰력으로 자금을 관리할 수 있습니다.",
-                            "tags": ["Next.js", "금융", "돈"]
-                        }
-                    }
-                },
-
-                {
-                    "categoryId": "apps",
-                    "icon": {
-                        "img": "images/pictures/project-logo-2.png",
-                        "fa": "",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-
-                    "links": [
-                        {"faIcon": "fa-brands fa-apple", "href": "https://apple.com"},
-                        {"faIcon": "fa-brands fa-google-play", "href": "https://google.com"}
+                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/awaisdev2/mern-frontend"}
                     ],
 
                     "media": {
@@ -275,68 +76,24 @@
 
                     "locales": {
                         "en": {
-                            "title": "Snappy",
-                            "text": "A powerful photography app designed with <b>Swift</b> for iOS and Android, featuring <b>advanced camera controls</b>, editing tools, and AI-powered filters for quick photo enhancements.",
-                            "tags": ["Swift", "Photography", "Camera"]
+                            "title": "Expense Management - Frontend",
+                            "text": "The **Expense Management** Website frontend uses React, Bootstrap, and React-Bootstrap for a modern, responsive UI. Formik and Yup handle form validation, with animated login and registration components. Users can track expenses, set budgets, view reports, and upload profile pictures, along with features like notes and to-do lists for comprehensive financial management.",
+                            "tags": ["React", "Expenses Manager", "Bootstrap"]
                         },
                         "es": {
-                            "title": "Snappy",
-                            "text": "Una app de fotografía potente diseñada con <b>Swift</b> para iOS y Android, con <b>controles avanzados de cámara</b>, herramientas de edición y filtros potenciados por IA para mejoras rápidas de fotos.",
-                            "tags": ["Swift", "Fotografía", "Cámara"]
+                            "title": "Expense Management - Frontend",
+                            "text": "La interfaz del sitio web **Administración de gastos** utiliza React, Bootstrap y React-Bootstrap para una interfaz de usuario moderna y receptiva. Formik y Yup manejan la validación de formularios, con componentes animados de inicio de sesión y registro que. Los usuarios pueden realizar un seguimiento de los gastos, establecer presupuestos, ver informes y cargar imágenes de perfil, junto con funciones como notas y listas de tareas pendientes para una gestión financiera integral.",
+                            "tags": ["React", "Expenses Manager", "Bootstrap"]
                         },
                         "fr": {
-                            "title": "Snappy",
-                            "text": "Une application de photographie puissante conçue avec <b>Swift</b> pour iOS et Android, avec des <b>contrôles avancés de la caméra</b>, des outils d'édition et des filtres IA pour des améliorations rapides des photos.",
-                            "tags": ["Swift", "Photographie", "Caméra"]
+                            "title": "Expense Management - Frontend",
+                            "text": "L'interface du site Web **Expense Management** utilise React, Bootstrap et React-Bootstrap pour une interface utilisateur moderne et réactive. Formik et Yup gèrent la validation des formulaires, avec des composants animés de connexion et d'enregistrement à l'aide. Les utilisateurs peuvent suivre leurs dépenses, définir des budgets, consulter des rapports et télécharger des photos de profil, ainsi que des fonctionnalités telles que des notes et des listes de tâches pour une gestion financière complète.",
+                            "tags": ["React", "Expenses Manager", "Bootstrap"]
                         },
                         "ko": {
-                            "title": "Snappy",
-                            "text": "<b>Swift</b>로 설계된 강력한 사진 앱으로, iOS 및 Android에서 <b>고급 카메라 제어</b>, 편집 도구, AI 기반 필터를 통해 빠르게 사진을 보정할 수 있습니다.",
-                            "tags": ["Swift", "사진", "카메라"]
-                        }
-                    }
-                },
-
-                {
-                    "categoryId": "websites",
-                    "icon": {
-                        "img": "images/pictures/project-logo-5.png",
-                        "fa": "",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-
-                    "links": [
-                        {"faIcon": "fa-solid fa-link", "href": "https://sweetscoops.com"}
-                    ],
-
-                    "media": {
-                        "youtubeVideo": null,
-                        "screenshots": {
-                            "aspectRatio": null,
-                            "images": []
-                        }
-                    },
-
-                    "locales": {
-                        "en": {
-                            "title": "Sweet Scoops",
-                            "text": "A recipe website built with <b>WordPress</b> and WooCommerce, featuring a rich collection of <b>dessert recipes</b> and an integrated e-commerce platform.",
-                            "tags": ["WooCommerce", "Food", "Desserts"]
-                        },
-                        "es": {
-                            "title": "Sweet Scoops",
-                            "text": "Un sitio web de recetas construido con <b>WordPress</b> y WooCommerce, con una rica colección de <b>recetas de postres</b> y una plataforma de comercio electrónico integrada.",
-                            "tags": ["WooCommerce", "Comida", "Postres"]
-                        },
-                        "fr": {
-                            "title": "Sweet Scoops",
-                            "text": "Un site de recettes construit avec <b>WordPress</b> et WooCommerce, présentant une riche collection de <b>recettes de desserts</b> et une plateforme de commerce électronique intégrée.",
-                            "tags": ["WooCommerce", "Cuisine", "Desserts"]
-                        },
-                        "ko": {
-                            "title": "Sweet Scoops",
-                            "text": "<b>WordPress</b>와 WooCommerce로 구축된 레시피 웹사이트로, 풍부한 <b>디저트 레시피</b> 모음과 통합된 전자상거래 플랫폼을 제공합니다.",
-                            "tags": ["WooCommerce", "음식", "디저트"]
+                            "title": "Expense Management - Frontend",
+                            "text": "**비용 관리** 웹사이트 프런트엔드는 현대적이고 반응성이 뛰어난 UI를 위해 React, Bootstrap 및 React-Bootstrap을 사용합니다. Formik과 Yup은 애니메이션 로그인 및 등록 구성 요소를 사용하여 양식 유효성 검사를 처리합니다. 사용자는 포괄적인 재무 관리를 위한 메모 및 할 일 목록과 같은 기능과 함께 비용을 추적하고, 예산을 설정하고, 보고서를 보고, 프로필 사진을 업로드할 수 있습니다.",
+                            "tags": ["React", "Expenses Manager", "Bootstrap"]
                         }
                     }
                 },
@@ -345,12 +102,12 @@
                     "categoryId": "websites",
                     "icon": {
                         "img": null,
-                        "fa": "fa-solid fa-guitar",
+                        "fa": "fa-solid fa-school",
                         "faColors": {"bg": "#111", "fill": "#EEE"}
                     },
 
                     "links": [
-                        {"faIcon": "fa-solid fa-link", "href": "https://rockverse.com"}
+                        {"faIcon": "fa-solid fa-link", "href": "https://theaimschool.pk"}
                     ],
 
                     "media": {
@@ -363,24 +120,63 @@
 
                     "locales": {
                         "en": {
-                            "title": "RockVerse",
-                            "text": "A dynamic music and entertainment website developed with <b>Django</b>, showcasing rock music news, events, and <b>streaming content</b>.",
-                            "tags": ["Django", "Music", "Rock"]
+                            "title": "The Aims School",
+                            "text": "I designed and developed the official website for **The Aims School**, utilizing modern web technologies to create a visually engaging and seamless user experience. Built with React, the website offers a dynamic and responsive interface, ensuring optimal performance across devices. To enhance interactivity and animations, I incorporated Framer Motion and GSAP, creating smooth transitions and engaging visual effects that captivate users.",
+                            "tags": ["React", "GSAP", "Framer motion"]
                         },
                         "es": {
-                            "title": "RockVerse",
-                            "text": "Un sitio web dinámico de música y entretenimiento desarrollado con <b>Django</b>, que muestra noticias de música rock, eventos y <b>contenido en streaming</b>.",
-                            "tags": ["Django", "Música", "Rock"]
+                            "title": "The Aims School",
+                            "text": "Diseñé y desarrollé el sitio web oficial de **The Aims School**, utilizando tecnologías web modernas para crear una experiencia de usuario visualmente atractiva y fluida. Creado con React, el sitio web ofrece una interfaz dinámica y responsiva, lo que garantiza un rendimiento óptimo en todos los dispositivos. Para mejorar la interactividad y las animaciones, incorporé Framer Motion y GSAP, creando transiciones suaves y atractivos efectos visuales que cautivan a los usuarios.",
+                            "tags": ["React", "GSAP", "Framer motion"]
                         },
                         "fr": {
-                            "title": "RockVerse",
-                            "text": "Un site web de musique et de divertissement dynamique développé avec <b>Django</b>, mettant en avant des nouvelles, événements et <b>contenu en streaming</b> sur le rock.",
-                            "tags": ["Django", "Musique", "Rock"]
+                            "title": "The Aims School",
+                            "text": "J'ai conçu et développé le site Web officiel de l'Aims School, en utilisant les technologies Web modernes pour créer une expérience utilisateur visuellement attrayante et transparente. Construit avec React, le site Web offre une interface dynamique et réactive, garantissant des performances optimales sur tous les appareils. Pour améliorer l'interactivité et les animations, j'ai intégré Framer Motion et GSAP, créant des transitions fluides et des effets visuels attrayants qui captivent les utilisateurs.",
+                            "tags": ["React", "GSAP", "Framer motion"]
                         },
                         "ko": {
-                            "title": "RockVerse",
-                            "text": "<b>Django</b>로 개발된 동적인 음악 및 엔터테인먼트 웹사이트로, 록 음악 뉴스, 이벤트 및 <b>스트리밍 콘텐츠</b>를 제공합니다.",
-                            "tags": ["Django", "음악", "록"]
+                            "title": "The Aims School",
+                            "text": "저는 시각적으로 매력적이고 원활한 사용자 경험을 만들기 위해 최신 웹 기술을 활용하여 **The Aims School**의 공식 웹사이트를 디자인하고 개발했습니다. React로 구축된 이 웹사이트는 역동적이고 반응이 빠른 인터페이스를 제공하여 여러 기기에서 최적의 성능을 보장합니다. 상호작용성과 애니메이션을 향상시키기 위해 Framer Motion과 GSAP를 통합하여 사용자를 사로잡는 부드러운 전환과 매력적인 시각 효과를 만들었습니다.",
+                            "tags": ["React", "GSAP", "Framer motion"]
+                        }
+                    }
+                },
+
+                {
+                    "categoryId": "utilities",
+                    "icon": {
+                        "img": "images/pictures/project-logo-3.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/awaisdev2/mern-backend"}
+                    ],
+
+                    "media": {
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "Expense Management - Backend",
+                            "text": "The **Expense Management** helps users track and manage finances with features like categorization, reports, and budgeting tools. It provides clear financial insights and simplifies expense tracking for effective oversight. It also has notes, todos and profile picture uploader feature which allow users to upload their own profile picture.",
+                            "tags": ["API", "REST", "Backend"]
+                        },
+                        "es": {
+                            "title": "Expense Management - Backend",
+                            "text": "**Gestión de gastos** ayuda a los usuarios a realizar un seguimiento y gestionar las finanzas con funciones como categorización, informes y herramientas de elaboración de presupuestos. Proporciona información financiera clara y simplifica el seguimiento de gastos para una supervisión eficaz. También tiene notas, todos y la función de carga de imágenes de perfil que permiten a los usuarios cargar su propia imagen de perfil.",
+                            "tags": ["API", "REST", "Backend"]
+                        },
+                        "fr": {
+                            "title": "Expense Management - Backend",
+                            "text": "La **Gestion des dépenses** aide les utilisateurs à suivre et à gérer leurs finances grâce à des fonctionnalités telles que la catégorisation, les rapports et les outils de budgétisation. Il fournit des informations financières claires et simplifie le suivi des dépenses pour une surveillance efficace. Il dispose également d'une fonction de téléchargement de notes, de tâches et de photos de profil qui permet aux utilisateurs de télécharger leur propre photo de profil.",
+                            "tags": ["API", "REST", "Backend"]
+                        },
+                        "ko": {
+                            "title": "Expense Management - Backend",
+                            "text": "**비용 관리**는 분류, 보고서, 예산 도구 등의 기능을 통해 사용자가 재정을 추적하고 관리하는 데 도움이 됩니다. 이는 명확한 재무 통찰력을 제공하고 효과적인 감독을 위해 비용 추적을 단순화합니다. 또한 사용자가 자신의 프로필 사진을 업로드할 수 있는 메모, 할 일 및 프로필 사진 업로더 기능도 있습니다.",
+                            "tags": ["API", "REST", "Backend"]
                         }
                     }
                 },
@@ -394,82 +190,32 @@
                     },
 
                     "links": [
+                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/awaisdev2/nodejs_backend"}
                     ],
 
                     "media": {
-                        "youtubeVideo": "https://www.youtube.com/watch?v=bf3Lz33nHy0",
-                        "screenshots": {
-                            "aspectRatio": null,
-                            "images": []
-                        }
                     },
 
                     "locales": {
                         "en": {
-                            "title": "Soccer Analytics",
-                            "text": "An AI-powered sports analytics platform built with <b>Python</b> and <b>TensorFlow</b>, offering detailed soccer <b>predictions</b> and team management tools.",
-                            "tags": ["AI", "Prediction", "Soccer"]
+                            "title": "To-Do Management - Backend",
+                            "text": "A simple and efficient web application for task management, allowing users to create, update, and organize tasks with ease. Featuring essential functionalities like task titles, descriptions, and a user-friendly interface, it simplifies task tracking and helps users stay on top of their goals without requiring authentication.",
+                            "tags": ["API", "REST", "Backend"]
                         },
                         "es": {
-                            "title": "Soccer Analytics",
-                            "text": "Una plataforma de análisis deportivo impulsada por IA construida con <b>Python</b> y <b>TensorFlow</b>, que ofrece <b>predicciones</b> detalladas de fútbol y herramientas de gestión de equipos.",
-                            "tags": ["IA", "Predicción", "Fútbol"]
+                            "title": "To-Do Management - Backend",
+                            "text": "Una aplicación web sencilla y eficiente para la gestión de tareas que permite a los usuarios crear, actualizar y organizar tareas con facilidad. Con funcionalidades esenciales como títulos de tareas, descripciones y una interfaz fácil de usar, simplifica el seguimiento de tareas y ayuda a los usuarios a mantenerse al tanto de sus objetivos sin necesidad de autenticación.",
+                            "tags": ["API", "REST", "Backend"]
                         },
                         "fr": {
-                            "title": "Soccer Analytics",
-                            "text": "Une plateforme d'analytique sportive alimentée par IA construite avec <b>Python</b> et <b>TensorFlow</b>, offrant des <b>prédictions</b> détaillées pour le football et des outils de gestion d'équipe.",
-                            "tags": ["IA", "Prédiction", "Football"]
+                            "title": "To-Do Management - Backend",
+                            "text": "Une application Web simple et efficace pour la gestion des tâches, permettant aux utilisateurs de créer, mettre à jour et organiser des tâches en toute simplicité. Doté de fonctionnalités essentielles telles que des titres de tâches, des descriptions et une interface conviviale, il simplifie le suivi des tâches et aide les utilisateurs à rester au top de leurs objectifs sans nécessiter d'authentification.",
+                            "tags": ["API", "REST", "Backend"]
                         },
                         "ko": {
-                            "title": "Soccer Analytics",
-                            "text": "<b>Python</b> 및 <b>TensorFlow</b>로 구축된 AI 기반 스포츠 분석 플랫폼으로, 축구에 대한 <b>예측</b> 및 팀 관리 도구를 제공합니다.",
-                            "tags": ["AI", "예측", "축구"]
-                        }
-                    }
-                },
-
-                {
-                    "categoryId": "apps",
-                    "icon": {
-                        "img": "",
-                        "fa": "fa-solid fa-truck-fast",
-                        "faColors": {"bg": "#007396", "fill": "#EEE"}
-                    },
-
-                    "links": [
-                        {"faIcon": "fa-brands fa-apple", "href": "https://apple.com"},
-                        {"faIcon": "fa-brands fa-google-play", "href": "https://google.com"},
-                        {"faIcon": "fa-brands fa-windows", "href": "https://windows.com"}
-                    ],
-
-                    "media": {
-                        "youtubeVideo": null,
-                        "screenshots": {
-                            "aspectRatio": null,
-                            "images": []
-                        }
-                    },
-
-                    "locales": {
-                        "en": {
-                            "title": "QuickDrop",
-                            "text": "A cross-platform delivery app built with <b>React Native</b> and a <b>Node.js backend</b>, featuring <b>real-time tracking</b> and seamless integration with multiple platforms.",
-                            "tags": ["React Native", "Delivery", "Real-Time Tracking"]
-                        },
-                        "es": {
-                            "title": "QuickDrop",
-                            "text": "Una app de entregas multiplataforma construida con <b>React Native</b> y un backend de <b>Node.js</b>, con <b>seguimiento en tiempo real</b> e integración perfecta en múltiples plataformas.",
-                            "tags": ["React Native", "Entrega", "Seguimiento"]
-                        },
-                        "fr": {
-                            "title": "QuickDrop",
-                            "text": "Une application de livraison multiplateforme construite avec <b>React Native</b> et un backend <b>Node.js</b>, avec <b>suivi en temps réel</b> et intégration fluide sur plusieurs plateformes.",
-                            "tags": ["React Native", "Livraison", "Suivi"]
-                        },
-                        "ko": {
-                            "title": "QuickDrop",
-                            "text": "<b>React Native</b>와 <b>Node.js</b> 백엔드로 구축된 크로스플랫폼 배송 앱으로, <b>실시간 추적</b> 및 여러 플랫폼과의 원활한 통합을 제공합니다.",
-                            "tags": ["React Native", "배송", "실시간 추적"]
+                            "title": "To-Do Management - Backend",
+                            "text": "작업 관리를 위한 간단하고 효율적인 웹 애플리케이션으로, 사용자가 작업을 쉽게 생성, 업데이트 및 구성할 수 있습니다. 작업 제목, 설명, 사용자 친화적인 인터페이스와 같은 필수 기능을 갖춘 이 앱은 작업 추적을 단순화하고 사용자가 인증 없이도 목표를 지속적으로 달성할 수 있도록 도와줍니다.",
+                            "tags": ["API", "REST", "Backend"]
                         }
                     }
                 }
