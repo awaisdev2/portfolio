@@ -1,5 +1,5 @@
 
-# [React Portfolio](https://v0-my-portfolio-18ypqupqxbb-git-master-awaisdev2s-projects.vercel.app/) by Awais Dev
+# [React Portfolio](https://v0-my-portfolio-18ypqupqxbb-a04vf4o2u-awaisdev2s-projects.vercel.app/) by Awais Dev
 
 A sleek, futuristic portfolio – built with **React** and **Bootstrap 5**.
 
@@ -12,6 +12,7 @@ Key features:
 - Uses **Vite** for packaging.
 - Emails with **EmailJS** - no backend needed!
 
-## [Live Preview](https://v0-my-portfolio-18ypqupqxbb-git-master-awaisdev2s-projects.vercel.app/)
+## [Live Preview Vercel](https://v0-my-portfolio-18ypqupqxbb-a04vf4o2u-awaisdev2s-projects.vercel.app/)
+## [Live Preview Netlify](https://awaisdev2.netlify.app/)
 
-Check out the live version of the template deployed **[here on GitHub Pages](https://v0-my-portfolio-18ypqupqxbb-git-master-awaisdev2s-projects.vercel.app/)**.
+Check out the live version of the template deployed **[here on GitHub Pages](https://v0-my-portfolio-18ypqupqxbb-a04vf4o2u-awaisdev2s-projects.vercel.app/)**.
